@@ -1,0 +1,30 @@
+
+#snek {
+    background-image: url("/assets/pictures/scuffedman.png");
+    left: 40%;
+    z-index: 2;
+    top: 50%;
+}
+
+#snekTail {
+    background-image: url("/assets/pictures/scuffedtail.png");
+    left: 46%;
+    top: 49.6%;
+}
+
+#snek, #snekTail {
+
+    position: absolute;
+    width: 128px;
+    height: 128px;
+}
+
+h1 {
+    position: absolute;
+    top: 40%;
+}
+
+a {
+    text-decoration: none;
+    cursor: move;
+}

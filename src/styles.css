@@ -1,0 +1,23 @@
+html,
+body {
+    background-color: #0A100D;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Pixel;
+    src: url("/assets/fonts/PressStart2P-Regular.ttf");
+}
+
+* {
+    font-family: Pixel;
+    color: #D6D5C9;
+}
+
+app-root,
+app-home {
+    display: block;
+    height: 100%;
+}
