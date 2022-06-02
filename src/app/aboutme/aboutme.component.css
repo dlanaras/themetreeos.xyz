@@ -1,0 +1,25 @@
+.content {
+    margin-top: 6%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 2%;
+    background-color: #902923;
+    height: 100%;
+}
+
+.content li {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+ol p {
+    margin-left: 2%;
+}
+
+#null {
+    margin-top: 50%;
+}

@@ -17,7 +17,9 @@ body {
 }
 
 app-root,
-app-home {
+app-home,
+app-aboutme,
+app-snek {
     display: block;
     height: 100%;
 }
