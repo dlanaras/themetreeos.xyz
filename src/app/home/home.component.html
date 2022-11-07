@@ -1,7 +1,7 @@
 <app-header></app-header>
 <div class="main">
 
-    <div class="image-background">
+    <div [ngClass]="is1984 ?  'nineTeenEightyFourBackground' : 'image-background'">
         <h1>Totally the best website you've ever seen</h1>
     </div>
 
@@ -48,14 +48,7 @@
             nnnDagon orr'e zhro Azathoth wgah'n athgor n'gha ftaghu kn'a, nnn'ai naflYoggoth lloig nggoka r'luh R'lyeh
             y'hah R'lyeh gnaiih.
             <br>
-            <br>
-            Azathoth athg kn'a Tsathoggua Yoggoth n'gha sgn'wahl kadishtu nnnlloig, zhro R'lyeh ilyaa throd y-Dagon
-            ftaghu Chaugnar Faugn vulgtm, chtenff s'uhn athg gnaiih hafh'drn hupadgh uaaah. Vulgtlagln hlirgh naflnglui
-            mg Yoggothyar Cthulhu hrii f'vulgtm, y-orr'e tharanak hai uh'e shugg grah'n, R'lyeh uaaah ngzhro ya
-            f'shtunggli cathg. H'Nyarlathotep nnnsgn'wahl hrii Tsathoggua mnahn' mg wgah'n vulgtlagln, gnaiih nog uh'e
-            ah Azathoth s'uhn Dagon Yoggothoth, lloig r'luh Hastur chtenff ee f''bthnk. Stell'bsna h'ooboshu vulgtm mg
-            s'uhn goka stell'bsna chtenff throd, sll'ha vulgtlagln ph'sgn'wahl y-kn'a h'lloig ch' hai r'luhor,
-            naflfhtagn Dagon li'hee Dagon nnnilyaa kadishtu ehyeog.
+            <br>nineTeenEightyFourgon li'hee Dagon nnnilyaa kadishtu ehyeog.
             <br>
             <br>
             Uh'e f'orr'e hriioth chtenff syha'h uh'e naflch' ph'vulgtm gof'nn gotha uln, tharanak hlirgh ehye n'gha
@@ -63,7 +56,8 @@
         </div>
         <br>
         <h3>But bet you couldn't read that right</h3>
+        <img id="nineteen-eighty-four" src="/assets/pictures/1984.gif" alt="1984" height="31" width="88" (click)="is1984 = !is1984">
     </div>
 </div>
 
-<button id="literally1984"></button>
+

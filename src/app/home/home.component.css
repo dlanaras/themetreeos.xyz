@@ -1,9 +1,9 @@
-.image-background img {
+.image-background img, .nineTeenEightyFourBackground img {
     width: 100%;
     height: 100%;
 }
 
-.image-background h1 {
+.image-background h1, .nineTeenEightyFourBackground h1 {
     margin-top: 200px;
     text-align: center;
     font-size: 2.4rem;
@@ -14,6 +14,13 @@
     width: 100%;
     height: 45% !important;
     background-image: url("/assets/pictures/joebiden.jpg");
+    background-size: 100% 100%;
+}
+
+.nineTeenEightyFourBackground {
+    width: 100%;
+    height: 45% !important;
+    background-image: url("/assets/pictures/burnie.gif");
     background-size: 100% 100%;
 }
 
@@ -39,6 +46,11 @@
     background-color: #902923;
 }
 
-.literally1984 {
-    background-image: url("http://toastytech.com/evil/ie1984.gif");
+#nineteen-eighty-four {
+    position: absolute;
+    right: 50%;
+}
+
+#nineteen-eighty-four:hover {
+    cursor: pointer;
 }
