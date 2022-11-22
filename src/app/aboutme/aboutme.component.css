@@ -23,3 +23,8 @@ ol p {
 #null {
     margin-top: 50%;
 }
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
