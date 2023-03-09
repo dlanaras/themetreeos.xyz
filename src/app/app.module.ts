@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { SnekComponent } from './snek/snek.component';
+import { EggComponent } from './egg/egg.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { SnekComponent } from './snek/snek.component';
     HomeComponent,
     HeaderComponent,
     AboutmeComponent,
-    SnekComponent
+    SnekComponent,
+    EggComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],

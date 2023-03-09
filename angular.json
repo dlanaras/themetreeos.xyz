@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "coolwebsite"
+  "defaultProject": "coolwebsite",
+  "cli": {
+    "analytics": false
+  }
 }
